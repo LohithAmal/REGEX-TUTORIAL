@@ -47,17 +47,36 @@ example:  `^[\w!#$&_*?^{}~-]+` here in the above code this line means any letter
 ### OR Operator
 
 ### Character Classes
-
+- `.`: this character represent any characters that may match or not match in the regular expression.
+- `d`: this character is to match digits between 0-9.
+- `D`: this character will exclude the digit match.
+- `w` : this character will match all letters a-z and A-Z (all cases) and also digits 0-9.
+- `W`: this character will exclude all characters a-z and A-Z (all cases) and also digits 0-9.
 
 ### Flags
+Flags are used in Regular expressions to  affect the search behaviour.
+
+- `-g`: this is a global search flag that makes the regex to search all occurances matching the given pattern.
 
 ### Grouping and Capturing
 
+By grouping and capturing method regex can match character sequence as show in the example below;
+ - `()` use to group the characters as `(\.[\w!#$&_*?^{}~-]+)`, here are characters are all grouped together with `()`
+
 ### Bracket Expressions
+Bracket expression in regex used to macth only one out of serveral characters. 
+- `[]` here in between the bracket we simply place the match we want as `[\w!#$&_*?^{}~-]` here it matches any character in the set.
+
 
 ### Greedy and Lazy Match
 
+- `greedy` means to match the longest string as possible where as `lazy` means shortest string as possible.
+
 ### Boundaries
+
+Boundaries in Regex to implement what is the macth to the left and right of current position.
+
+- `/` is an example of Regex boundaries
 
 ### Back-references
 
@@ -65,4 +84,8 @@ example:  `^[\w!#$&_*?^{}~-]+` here in the above code this line means any letter
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi I am Amal Lohith.
+I am a mechanical engineer striving to persue my passion for Web Development. 
+[CLICK HERE FOR MY GITHUB](https://github.com/LohithAmal)
+
+
